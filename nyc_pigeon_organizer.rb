@@ -5,6 +5,7 @@ def nyc_pigeon_organizer(data)
   data[:gender][:male].each do |ele|
     hash[ele] = { color: [], gender: [], lives: [] }
   end
+<<<<<<< HEAD
   data[:gender][:female].each do |ele|
     hash[ele] = { color: [], gender: [], lives: [] }
   end
@@ -30,4 +31,7 @@ def nyc_pigeon_organizer(data)
       end
     end
   hash
+=======
+  binding.pry
+>>>>>>> b8055c7682a39fee7ec0cbc1fa7668c1d880f98c
 end
